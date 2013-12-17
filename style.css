@@ -1,0 +1,54 @@
+.main-row {
+    width: 100%;
+    height: 100%;
+}
+
+.layout-container {
+    width: 1185px;
+    max-width: 1600px;
+    min-width: 200px;
+    margin: 0 auto;
+}
+
+.content {
+    height: 500px;
+    width: 100%;
+    background-color: #E6E6E6;
+}
+
+.text-block {
+    background: #C497AF;
+    height: 100px;
+    display: inline-block;
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: -50%;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.layout-editor {
+    position: absolute;
+    cursor: e-resize;
+}
+
+.layout-editor-resize-separator {
+    border-left: 1px dashed;
+}
+
+.layout-editor-resize-square {
+    border: 1px solid;
+}
+
+.layout-editor-resize-separator-visible,
+.layout-editor-resize-square-visible {
+    border-color: #C9C9C3;
+}
+
+.layout-editor-resize-separator-hover,
+.layout-editor-resize-square-hover {
+    border-color: #5F94C2;
+}
